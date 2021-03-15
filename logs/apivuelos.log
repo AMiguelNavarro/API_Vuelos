@@ -1,0 +1,30 @@
+2021-03-15 16:41:47,984 INFO org.springframework.boot.StartupInfoLogger [main] Starting VuelosApplication using Java 11.0.9 on LAPTOP-U072ACP3 with PID 1352 (D:\ACCESO A DATOS\SPRING\vuelos\target\classes started by alber in D:\ACCESO A DATOS\SPRING\vuelos)
+2021-03-15 16:41:47,988 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-03-15 16:41:49,036 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-15 16:41:49,111 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interfaces.
+2021-03-15 16:41:50,328 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-03-15 16:41:50,346 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-15 16:41:50,348 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-03-15 16:41:50,348 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-15 16:41:50,553 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-03-15 16:41:50,554 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2491 ms
+2021-03-15 16:41:50,806 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-15 16:41:50,891 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-15 16:41:51,073 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-15 16:41:51,238 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-03-15 16:41:51,242 WARN com.zaxxer.hikari.util.DriverDataSource [main] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-03-15 16:41:51,476 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-03-15 16:41:51,502 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-03-15 16:41:52,252 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-15 16:41:52,266 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-15 16:41:52,835 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-15 16:41:52,929 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-15 16:41:53,733 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-03-15 16:41:53,767 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-15 16:41:53,796 INFO org.springframework.boot.StartupInfoLogger [main] Started VuelosApplication in 6.624 seconds (JVM running for 7.364)
+2021-03-15 16:42:04,132 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-15 16:42:04,134 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-03-15 16:42:04,136 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-03-15 16:42:04,176 INFO com.sanvalero.api.vuelos.controller.WebController [http-nio-8080-exec-1] Se listan todos los vuelos
+2021-03-15 16:42:37,859 INFO com.sanvalero.api.vuelos.controller.WebController [http-nio-8080-exec-2] Se lista el vuelo con ID -> 1
+2021-03-15 16:42:47,325 INFO com.sanvalero.api.vuelos.controller.WebController [http-nio-8080-exec-3] Se lista el vuelo con ID -> 3
