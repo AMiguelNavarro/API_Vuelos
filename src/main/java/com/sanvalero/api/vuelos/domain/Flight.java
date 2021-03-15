@@ -1,6 +1,7 @@
 package com.sanvalero.api.vuelos.domain;
 
 import io.swagger.v3.oas.annotations.media.Schema;
+import lombok.Builder;
 import lombok.Data;
 
 import javax.persistence.*;
